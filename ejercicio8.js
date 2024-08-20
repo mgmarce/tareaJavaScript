@@ -10,7 +10,7 @@ function tablaMultiplicar(num) {
 var numero;
 process. stdout.write("Ingrese un numero: ");
 
-process.stdin. on('data', function(data){
+process.stdin.on('data', function(data){
     numero = data.toString();
     tablaMultiplicar(numero)
     process.exit();
